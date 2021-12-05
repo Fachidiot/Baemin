@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LocationSettingView" customModule="Baemin" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="NKH-W1-1j6"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="주소 설정" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tr9-L8-iOk">
+                    <rect key="frame" x="181" y="69" width="52.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Wu-m5-WHb">
+                    <rect key="frame" x="355" y="62" width="49" height="31"/>
+                    <color key="tintColor" systemColor="labelColor"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="편집"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6hT-J7-xZI">
+                    <rect key="frame" x="20" y="96" width="374" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Q1O-LI-F7p"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="지번, 도로명, 건물명으로 검색" imagePadding="8">
+                        <imageReference key="image" image="magnifyingglass" catalog="system" symbolScale="default"/>
+                        <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" weight="semibold"/>
+                        <fontDescription key="titleFontDescription" type="system" pointSize="13"/>
+                        <color key="baseForegroundColor" systemColor="secondaryLabelColor"/>
+                        <color key="baseBackgroundColor" systemColor="systemGray6Color"/>
+                    </buttonConfiguration>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="IV8-pY-JC9">
+                    <rect key="frame" x="374" y="153" width="20" height="16.5"/>
+                    <color key="tintColor" systemColor="systemGray2Color"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="IV8-pY-JC9" secondAttribute="height" multiplier="1:1" id="YUk-kh-P5y"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ChB-9z-HIh">
+                    <rect key="frame" x="20" y="141" width="374" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Q71-ar-b19"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" image="location" catalog="system" title="현재 위치로 설정" imagePadding="5">
+                        <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="14"/>
+                        <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </buttonConfiguration>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="IV8-pY-JC9" firstAttribute="trailing" secondItem="ChB-9z-HIh" secondAttribute="trailing" id="Cm1-SL-scN"/>
+                <constraint firstItem="6hT-J7-xZI" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="DiX-P8-sdu"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ChB-9z-HIh" secondAttribute="trailing" constant="20" id="Kys-Sb-eG4"/>
+                <constraint firstItem="Tr9-L8-iOk" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="25" id="NWy-1a-adk"/>
+                <constraint firstItem="IV8-pY-JC9" firstAttribute="centerY" secondItem="ChB-9z-HIh" secondAttribute="centerY" id="R8D-aj-B1M"/>
+                <constraint firstItem="7Wu-m5-WHb" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="18" id="TP9-qj-tU2"/>
+                <constraint firstItem="Tr9-L8-iOk" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="XZ8-dZ-z2T"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="6hT-J7-xZI" secondAttribute="trailing" constant="20" id="ZmK-J3-9nf"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="7Wu-m5-WHb" secondAttribute="trailing" constant="10" id="pQC-Kr-T1x"/>
+                <constraint firstItem="ChB-9z-HIh" firstAttribute="top" secondItem="6hT-J7-xZI" secondAttribute="bottom" constant="5" id="pld-Ws-mH3"/>
+                <constraint firstItem="6hT-J7-xZI" firstAttribute="top" secondItem="Tr9-L8-iOk" secondAttribute="bottom" constant="10" id="qVy-nx-DCu"/>
+                <constraint firstItem="ChB-9z-HIh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="srw-dD-tt1"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="105.80357142857143"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chevron.right" catalog="system" width="96" height="128"/>
+        <image name="location" catalog="system" width="128" height="118"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
