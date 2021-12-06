@@ -32,6 +32,7 @@ class MainViewController: UIViewController {
     let recommend = ["브랜치 나와라 뚝딱!!", "찾는 맛집 이름이 뭐에요?", "육회비빔밥? 쌀국수? 육개장?", "포케? 돈까스? 커리?", "배고프니까 일단 검색!!", "막국수? 꼬막무침? 갈비탕?", "팟타이 나와라 뚝딱!!", "물회 나와라 뚝딱!!", "찾는 메뉴가 뭐에요?", "로제떡볶이 나와라 뚝딱!!", "초밥 나와라 뚝딱!!", "까르보나라 나와라 뚝딱!!"]
 }
 
+
 extension MainViewController: UICollectionViewDataSource {
     // 몇개 표시 할까?
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
