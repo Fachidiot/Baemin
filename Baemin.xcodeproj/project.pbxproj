@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		736E63E4922B68C57DA677F8 /* Pods_Baemin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E46F7B6705A7BE52F03919A /* Pods_Baemin.framework */; };
+		CEDE3101E36F1D0F70D95AD3 /* Pods_Baemin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02997BAD479F8558A743B92E /* Pods_Baemin.framework */; };
+		D15CBF05275F4A45003ECD63 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBF04275F4A45003ECD63 /* Test.swift */; };
 		D1C0737727506CB3009EF067 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C0737627506CB3009EF067 /* AppDelegate.swift */; };
 		D1C0737927506CB3009EF067 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C0737827506CB3009EF067 /* SceneDelegate.swift */; };
 		D1C0737B27506CB3009EF067 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C0737A27506CB3009EF067 /* ViewController.swift */; };
@@ -36,11 +37,15 @@
 		D1C3C32B27560B0D00335A7A /* RankCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3C32A27560B0D00335A7A /* RankCollectionViewCell.swift */; };
 		D1C3C33027560C9100335A7A /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3C32F27560C9100335A7A /* Search.swift */; };
 		D1C3C332275B99FD00335A7A /* RankCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C3C331275B99FD00335A7A /* RankCollectionReusableView.swift */; };
+		D1FE6819275DEAF9000BBE0F /* MyCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FE6818275DEAF9000BBE0F /* MyCollectionViewModel.swift */; };
+		D1FE681B275DEF6F000BBE0F /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FE681A275DEF6F000BBE0F /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		41303D1C034C1DEDFD4A5D2B /* Pods-Baemin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baemin.release.xcconfig"; path = "Target Support Files/Pods-Baemin/Pods-Baemin.release.xcconfig"; sourceTree = "<group>"; };
-		4E46F7B6705A7BE52F03919A /* Pods_Baemin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Baemin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02997BAD479F8558A743B92E /* Pods_Baemin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Baemin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F2937D41BE9BF1D555DD35 /* Pods-Baemin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baemin.debug.xcconfig"; path = "Target Support Files/Pods-Baemin/Pods-Baemin.debug.xcconfig"; sourceTree = "<group>"; };
+		A60112BAA9E2D74D60514106 /* Pods-Baemin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baemin.release.xcconfig"; path = "Target Support Files/Pods-Baemin/Pods-Baemin.release.xcconfig"; sourceTree = "<group>"; };
+		D15CBF04275F4A45003ECD63 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		D1C0737327506CB3009EF067 /* Baemin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baemin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C0737627506CB3009EF067 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1C0737827506CB3009EF067 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,7 +76,8 @@
 		D1C3C32A27560B0D00335A7A /* RankCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankCollectionViewCell.swift; sourceTree = "<group>"; };
 		D1C3C32F27560C9100335A7A /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		D1C3C331275B99FD00335A7A /* RankCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankCollectionReusableView.swift; sourceTree = "<group>"; };
-		FE19281E122F20EF2A9AB2CA /* Pods-Baemin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baemin.debug.xcconfig"; path = "Target Support Files/Pods-Baemin/Pods-Baemin.debug.xcconfig"; sourceTree = "<group>"; };
+		D1FE6818275DEAF9000BBE0F /* MyCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewModel.swift; sourceTree = "<group>"; };
+		D1FE681A275DEF6F000BBE0F /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				736E63E4922B68C57DA677F8 /* Pods_Baemin.framework in Frameworks */,
+				CEDE3101E36F1D0F70D95AD3 /* Pods_Baemin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,16 +95,16 @@
 		60F838970B9E544CD3D7718F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FE19281E122F20EF2A9AB2CA /* Pods-Baemin.debug.xcconfig */,
-				41303D1C034C1DEDFD4A5D2B /* Pods-Baemin.release.xcconfig */,
+				A0F2937D41BE9BF1D555DD35 /* Pods-Baemin.debug.xcconfig */,
+				A60112BAA9E2D74D60514106 /* Pods-Baemin.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		96DA8431C5B4560C3AA388D2 /* Frameworks */ = {
+		9C80BA00450F1A603CDEAA5E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4E46F7B6705A7BE52F03919A /* Pods_Baemin.framework */,
+				02997BAD479F8558A743B92E /* Pods_Baemin.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,7 +115,7 @@
 				D1C0737527506CB3009EF067 /* Baemin */,
 				D1C0737427506CB3009EF067 /* Products */,
 				60F838970B9E544CD3D7718F /* Pods */,
-				96DA8431C5B4560C3AA388D2 /* Frameworks */,
+				9C80BA00450F1A603CDEAA5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,8 +180,11 @@
 		D1C073A127506F9B009EF067 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
+				D1FE6818275DEAF9000BBE0F /* MyCollectionViewModel.swift */,
+				D1FE681A275DEF6F000BBE0F /* MyCollectionViewCell.swift */,
 				D1C3C31D2754BE4B00335A7A /* Menu Tab */,
 				D1C073C427509E3A009EF067 /* MenuViewController.swift */,
+				D15CBF04275F4A45003ECD63 /* Test.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -260,11 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1C0738727506CB4009EF067 /* Build configuration list for PBXNativeTarget "Baemin" */;
 			buildPhases = (
-				8ECF16A8C7A97A1CE8182F2B /* [CP] Check Pods Manifest.lock */,
+				188622741EEDC8E37229C56F /* [CP] Check Pods Manifest.lock */,
 				D1C0736F27506CB3009EF067 /* Sources */,
 				D1C0737027506CB3009EF067 /* Frameworks */,
 				D1C0737127506CB3009EF067 /* Resources */,
-				269313AA1DD5484CB91F4668 /* [CP] Embed Pods Frameworks */,
+				4B6CFA1C54D20BC91EBB3870 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -325,24 +334,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		269313AA1DD5484CB91F4668 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Baemin/Pods-Baemin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Baemin/Pods-Baemin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Baemin/Pods-Baemin-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8ECF16A8C7A97A1CE8182F2B /* [CP] Check Pods Manifest.lock */ = {
+		188622741EEDC8E37229C56F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -364,6 +356,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4B6CFA1C54D20BC91EBB3870 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Baemin/Pods-Baemin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Baemin/Pods-Baemin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Baemin/Pods-Baemin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -373,6 +382,7 @@
 			files = (
 				D1C073B727507166009EF067 /* SearchViewController.swift in Sources */,
 				D1C0737B27506CB3009EF067 /* ViewController.swift in Sources */,
+				D1FE681B275DEF6F000BBE0F /* MyCollectionViewCell.swift in Sources */,
 				D1C073A82750702B009EF067 /* DeviceConfig.swift in Sources */,
 				D1C3C32727560A1E00335A7A /* RecentCollectionViewCell.swift in Sources */,
 				D1C3C3222754BE8200335A7A /* LogViewController.swift in Sources */,
@@ -389,10 +399,12 @@
 				D1C3C32B27560B0D00335A7A /* RankCollectionViewCell.swift in Sources */,
 				D1C3C332275B99FD00335A7A /* RankCollectionReusableView.swift in Sources */,
 				D1C073B527507146009EF067 /* MainViewController.swift in Sources */,
+				D15CBF05275F4A45003ECD63 /* Test.swift in Sources */,
 				D1C073BD2750724D009EF067 /* Menu.swift in Sources */,
 				D1C073B3275070F0009EF067 /* LaunchViewViewController.swift in Sources */,
 				D1C0739727506E59009EF067 /* LocationSettingView.swift in Sources */,
 				D1C3C31C27545E7000335A7A /* TopTabbar.swift in Sources */,
+				D1FE6819275DEAF9000BBE0F /* MyCollectionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,7 +548,7 @@
 		};
 		D1C0738827506CB4009EF067 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE19281E122F20EF2A9AB2CA /* Pods-Baemin.debug.xcconfig */;
+			baseConfigurationReference = A0F2937D41BE9BF1D555DD35 /* Pods-Baemin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -565,7 +577,7 @@
 		};
 		D1C0738927506CB4009EF067 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41303D1C034C1DEDFD4A5D2B /* Pods-Baemin.release.xcconfig */;
+			baseConfigurationReference = A60112BAA9E2D74D60514106 /* Pods-Baemin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

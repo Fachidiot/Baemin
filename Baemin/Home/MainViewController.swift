@@ -9,6 +9,10 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    @IBAction func testbutton(_ sender: Any) {
+        let testVC = self.storyboard?.instantiateViewController(withIdentifier: "Test")
+        self.navigationController?.pushViewController(testVC!, animated: true)
+    }
     @IBOutlet weak var searchRecommend: UIButton!
     @IBAction func buttonClick(_ sender: UIButton) {
         let searchVC = self.storyboard?.instantiateViewController(withIdentifier: "SearchViewController")

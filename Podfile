@@ -4,7 +4,9 @@ pod 'SnapKit', '~> 5.0.0'# Uncomment the next line to define a global platform f
 target 'Baemin' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-    pod 'SnapKit', '~> 5.0.0'
+
   # Pods for Baemin
+    pod 'SnapKit', '~> 5.0.0'
+    pod 'GoogleDataTransport', '7.4.0'
 
 end

@@ -9,14 +9,26 @@ import UIKit
 
 class SearchViewController: UIViewController {
     
+    
+    @IBOutlet weak var searchField: UITextField!
     @IBAction func buttonBack_search(_ sender: Any) {
         self.navigationController!.popViewController(animated: true)
     }
     
     let list = Rank.dummyList
+    var searchWord = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+}
+
+extension SearchViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        searchWord = searchField.text!
+        
+        return true
     }
 }
 
