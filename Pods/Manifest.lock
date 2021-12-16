@@ -1,16 +1,28 @@
 PODS:
+  - GoogleDataTransport (7.4.0):
+    - nanopb (~> 1.30906.0)
+  - nanopb (1.30906.0):
+    - nanopb/decode (= 1.30906.0)
+    - nanopb/encode (= 1.30906.0)
+  - nanopb/decode (1.30906.0)
+  - nanopb/encode (1.30906.0)
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
+  - GoogleDataTransport (= 7.4.0)
   - SnapKit (~> 5.0.0)
 
 SPEC REPOS:
   trunk:
+    - GoogleDataTransport
+    - nanopb
     - SnapKit
 
 SPEC CHECKSUMS:
+  GoogleDataTransport: b7f406340a291370045a270c599e53c6fa6ec20f
+  nanopb: 59317e09cf1f1a0af72f12af412d54edf52603fc
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: f6ddceeaa149cb1552bf782cada0d8f0421bc28f
+PODFILE CHECKSUM: 90cbe1269651effc548c01789f2b3027a7482c1f
 
 COCOAPODS: 1.11.2

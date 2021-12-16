@@ -13,6 +13,7 @@ class Test: UICollectionViewController {
     init() {
         super.init(collectionViewLayout: Test.createLayout())
     }
+
     
     required init?(coder aDecoder: NSCoder) {
             super.init(coder: aDecoder)
